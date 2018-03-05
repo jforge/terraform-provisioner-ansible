@@ -132,3 +132,8 @@ func retryFunc(timeout time.Duration, f func() error) error {
 		}
 	}
 }
+
+func (r *ResourceProvisioner) Stop() error {
+	   // Noop for now. TODO in the future.
+	   return nil
+}
